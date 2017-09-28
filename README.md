@@ -1,4 +1,4 @@
-# ~~Coding Interview University~~ Code Learning Board
+# ~~Coding Interview University~~ Software Engineering University
 
 It's my code learning board to keep track of so many computer science topics and guide my way through the computing jungle. 
 
@@ -8,7 +8,7 @@ First and foremost, thanks goes on it's entirety to [John Washam](https://github
 > science knowledge is required). If you have many years of experience and are claiming many years of software engineering experience,
 > expect a harder interview.
 
-I am confident that his work not only inspired some indivuals in a simple manner, but was a dividing line and the denitely strike for their success. Thanks John!
+I am confident that his work not only inspired some indivuals in a simple manner, but was a dividing line and a definitely strike for their successes. Thanks John!
 
 I gathered resources not only here, so many referencee for a great ammount of people will be necessary and of course, worthy, and I'll provide them in time.
 
@@ -16,9 +16,9 @@ I gathered resources not only here, so many referencee for a great ammount of pe
 
 ## What is it?
 
-This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
+This is my multi-month study plan for going from a Zero-no-hero (me, self-taught, without a CS degree) to software engineer for a large company.
 
-![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+![ODIN- Thought to be the Supreme God of the Norse Mythology](/odin.jpg)
 
 If you want to be a reliability engineer or operations engineer, study more from the optional list (networking, security).
 
@@ -332,93 +332,6 @@ OR:
     - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results.
     - Would rather spend time on coding problems from another book or online coding problems.
 
-
-## Before you Get Started
-
-This list grew over many months, and yes, it kind of got out of hand.
-
-Here are some mistakes I made so you'll have a better experience.
-
-### 1. You Won't Remember it All
-
-I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards so I could review.
-
-Read please so you won't make my mistakes:
-
-[Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/)
-
-### 2. Use Flashcards
-
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting.
-
-I made a mobile-first website so I could review on my phone and tablet, wherever I am.
-
-Make your own for free:
-
-- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
-- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
-
-Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required.
-
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
-your brain.
-
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember.
-It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
-
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
-
-### 3. Review, review, review
-
-I keep a set of cheat sheets on ASCII, OSI stack, Big-O notations, and more. I study them when I have some spare time.
-
-Take a break from programming problems for a half hour and go through your flashcards.
-
-### 4. Focus
-
-There are a lot of distractions that can take up valuable time. Focus and concentration are hard.
-
-## What you won't see covered
-
-These are prevalent technologies but not part of this study plan:
-
-- SQL
-- Javascript
-- HTML, CSS, and other front-end technologies
-
-## The Daily Plan
-
-Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement.
-
-Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
-- C - using structs and functions that take a struct * and something else as args.
-- C++ - without using built-in types
-- C++ - using built-in types, like STL's std::list for a linked list
-- Python - using built-in types (to keep practicing Python)
-- and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
-- You may do Java or something else, this is just my thing.
-
-You don't need all these. You need only [one language for the interview](#pick-one-language-for-the-interview).
-
-Why code in all of these?
-- Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
-- Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python))
-- Make use of built-in types so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
-
-I may not have time to do all of these for every subject, but I'll try.
-
-You can see my code here:
- - [C](https://github.com/jwasham/practice-c)
- - [C++](https://github.com/jwasham/practice-cpp)
- - [Python](https://github.com/jwasham/practice-python)
-
-You don't need to memorize the guts of every algorithm.
-
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
 
 ## Prerequisite Knowledge
 
